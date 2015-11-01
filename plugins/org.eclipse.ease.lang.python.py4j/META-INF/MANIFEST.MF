@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Py4j
+Bundle-SymbolicName: org.eclipse.ease.lang.python.py4j;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ease,
+ org.eclipse.ease.lang.python,
+ py4j-java;bundle-version="0.9.2",
+ py4j-python;bundle-version="0.9.2",
+ org.apache.commons.lang;bundle-version="2.6.0"
+Export-Package: org.eclipse.ease.lang.python.py4j.internal
+Bundle-Activator: org.eclipse.ease.lang.python.py4j.internal.Activator

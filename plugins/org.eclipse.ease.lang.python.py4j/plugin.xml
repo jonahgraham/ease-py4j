@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ease.language">
+      <engine
+            class="org.eclipse.ease.lang.python.py4j.internal.Py4jPythonScriptEngine"
+            id="org.eclipse.ease.lang.python.py4j.engine"
+            name="Py4j Python Script Engine">
+         <binding
+               scriptType="Python">
+         </binding>
+      </engine>
+      <launchExtension
+            class="org.eclipse.ease.lang.python.py4j.internal.Py4JBootstrap"
+            engineID="org.eclipse.ease.lang.python.py4j.engine">
+      </launchExtension>
+   </extension>
+
+</plugin>
