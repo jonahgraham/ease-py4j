@@ -12,6 +12,5 @@ Clone and import all projects in the following repos (from the py4j-ease branch)
   - https://github.com/jonahkichwacoders/org.eclipse.ease.scripts/
   - https://github.com/jonahkichwacoders/org.eclipse.ease.modules/
 
-Set target platform to [Developers.target][1] (in org.eclipse.ease.core/releng project org.eclipse.ease.releng.target)
+Set target platform to [Developers.target](https://github.com/jonahkichwacoders/org.eclipse.ease.core/blob/py4j-ease/releng/org.eclipse.ease.releng.target/Developers.target) (in org.eclipse.ease.core/releng project org.eclipse.ease.releng.target)
 
-[1] https://github.com/jonahkichwacoders/org.eclipse.ease.core/blob/py4j-ease/releng/org.eclipse.ease.releng.target/Developers.target
