@@ -4,7 +4,7 @@ EASE Python support using py4j
 # Developing
 Use Eclipse Committers or similar as a starting platform.
 
-  1. Clone and import all projects in the following repos (from the py4j-ease branch):
+- **Step 1**: Clone and import all projects in the following repos (from the py4j-ease branch):
 
   - https://github.com/jonahkichwacoders/ease-py4j/ -- this project
   - https://github.com/jonahkichwacoders/py4j/
@@ -12,9 +12,9 @@ Use Eclipse Committers or similar as a starting platform.
   - https://github.com/jonahkichwacoders/org.eclipse.ease.scripts/
   - https://github.com/jonahkichwacoders/org.eclipse.ease.modules/
 
-  2. Set target platform to [Developers.target](https://github.com/jonahkichwacoders/org.eclipse.ease.core/blob/py4j-ease/releng/org.eclipse.ease.releng.target/Developers.target) (in org.eclipse.ease.core/releng project org.eclipse.ease.releng.target)
+- **Step 2**: Set target platform to [Developers.target](https://github.com/jonahkichwacoders/org.eclipse.ease.core/blob/py4j-ease/releng/org.eclipse.ease.releng.target/Developers.target) (in org.eclipse.ease.core/releng project org.eclipse.ease.releng.target)
 
-  3. Some minor further setup needs to be done:
+- **Step 3**: Some minor further setup needs to be done:
 
   - Ignore errors of missing API Baselines (go to Preferences -> Plug-in Development -> API Baselines and choose Missing API baseline = Ignore)
   - Close org.eclipse.ease.sample.feature and org.eclipse.ease.sample.project projects
